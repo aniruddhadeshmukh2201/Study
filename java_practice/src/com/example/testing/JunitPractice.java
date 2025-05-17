@@ -1,4 +1,4 @@
-package src.com.example;
+package src.com.example.testing;
 
 public class JunitPractice {
     
