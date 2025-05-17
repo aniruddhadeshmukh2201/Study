@@ -10,10 +10,30 @@ public class ThreadPractice {
     }
 
     public static void main(String[] args) {
-        Thread t1 = new Thread(() -> System.out.println("running from the lambda and the thread obj : " + Thread.currentThread().getName()));
+        try {
+            Thread t1 = new Thread(() -> {
+            try {
+                // System.out.println("status 3: " + Thread.currentThread().getState());
+                Thread.sleep(5000);
+            }catch(Exception e) {
+                System.err.println("exception occured...");
+            }
+        });
+        System.out.println("status 1: " + t1.getState());
         t1.start();
-        Task t = new Task();
-        t.start();
-        System.out.println("----this is the main thread : " + Thread.currentThread().getName());
+        System.out.println("status 2: " + t1.getState());
+        Thread.sleep(100);
+        System.out.println("status 4: " + t1.getState());
+        t1.join();
+        System.out.println("status 5: " + t1.getState());
+    } catch(Exception e) {
+        System.err.println("exception in main");
+    }
+
+    // for waiting and blocked, we need to get into 
+        
+        // Task t = new Task();
+        // t.start();
+        // System.out.println("----this is the main thread : " + Thread.currentThread().getName());
     }
 }
