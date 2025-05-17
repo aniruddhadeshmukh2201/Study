@@ -1,6 +1,6 @@
-package com.example.y;
+package src.com.example.y;
 
-import com.example.x.First;
+import src.com.example.x.First;
 
 public class Second {
 

@@ -1,3 +1,4 @@
+package src.com.example;
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.HashMap;
@@ -13,7 +14,7 @@ import java.util.TreeSet;
 import java.util.WeakHashMap;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class Hello {
+public class Main {
 
     // class Item {
     //     public String name;
