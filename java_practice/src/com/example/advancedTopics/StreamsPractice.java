@@ -1,4 +1,4 @@
-package src.com.example.multithreading;
+package src.com.example.advancedTopics;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,9 +23,6 @@ public class StreamsPractice {
 
         Stream<String> st = Stream.of("x", "y", "z");
         st.forEach(System.out::println);
-
-        
-
 
     }
 }
