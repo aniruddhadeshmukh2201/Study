@@ -1,4 +1,4 @@
-package src.com.example.advancedTopics;
+package com.example.advancedTopics;
 
 import java.util.ArrayList;
 import java.util.Arrays;

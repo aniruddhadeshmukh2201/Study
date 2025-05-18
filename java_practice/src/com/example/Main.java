@@ -1,4 +1,4 @@
-package src.com.example;
+package com.example;
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.HashMap;

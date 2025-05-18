@@ -1,4 +1,4 @@
-package src.com.example.x;
+package com.example.x;
 
 
 public class First {

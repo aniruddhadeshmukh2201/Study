@@ -1,4 +1,4 @@
-package src.com.example.design_patterns;
+package com.example.design_patterns;
 
 public class SingletonPractice {
     

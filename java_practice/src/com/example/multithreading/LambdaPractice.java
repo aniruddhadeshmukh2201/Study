@@ -1,4 +1,4 @@
-package src.com.example.multithreading;
+package com.example.multithreading;
 
 public class LambdaPractice {
     static Runnable r = () -> System.out.println("hello");

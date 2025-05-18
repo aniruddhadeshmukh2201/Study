@@ -1,4 +1,4 @@
-package src.com.example.multithreading;
+package com.example.multithreading;
 
 public class ThreadPractice {
 

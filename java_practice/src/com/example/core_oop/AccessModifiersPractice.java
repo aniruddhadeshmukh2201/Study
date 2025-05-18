@@ -1,4 +1,4 @@
-package src.com.example.core_oop;
+package com.example.core_oop;
 
 public class AccessModifiersPractice {
     

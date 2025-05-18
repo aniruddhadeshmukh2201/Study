@@ -1,4 +1,4 @@
-package src.com.example.y;
+package com.example.y;
 
 import src.com.example.x.First;
 
