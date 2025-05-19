@@ -11,15 +11,10 @@ public class PracticeApplication {
 
 		ApplicationContext context = SpringApplication.run(PracticeApplication.class, args);
 
-		Sample s = context.getBean(Sample.class);
+		Sample s = context.getBean("SingletonService", Sample.class);
+		Sample p = context.getBean("PrototypeService", Sample.class);
 
-		s.increment();
-		System.out.println("count : " + s.getCount());
 
-		Sample d = context.getBean(Sample.class);
-		d.increment();
-		System.out.println("count in d : " + d.getCount());
-		System.out.println("count : " + s.getCount());
 	}
 
 }

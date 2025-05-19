@@ -10,37 +10,37 @@ import org.springframework.web.context.WebApplicationContext;
 public class AppConfig {
     
     
-    @Bean
+    @Bean("SingletonService")
     @Scope("singleton")
     public Sample SingletonService() {
         return new Sample("I am Singleton");
     }
 
-    // @Bean
-    // @Scope("prototype")
-    // public Sample PrototypeService() {
-    //     return new Sample("I am prototype");
-    // }
+    @Bean("PrototypeService")
+    @Scope("prototype")
+    public Sample PrototypeService() {
+        return new Sample("I am prototype");
+    }
 
-    // @Bean
-    // @Scope(value = WebApplicationContext.SCOPE_REQUEST, proxyMode = ScopedProxyMode.TARGET_CLASS)
-    // public Sample SessionService() {
-    //     return new Sample("I am Session");
-    // }
-
-
-    // @Bean
-    // @Scope(value = WebApplicationContext.SCOPE_REQUEST, proxyMode = ScopedProxyMode.TARGET_CLASS)
-    // public Sample RequestService() {
-    //     return new Sample("I am Request");
-    // }
+    @Bean("SessionService")
+    @Scope(value = "session", proxyMode = ScopedProxyMode.TARGET_CLASS)
+    public Sample SessionService() {
+        return new Sample("I am Session");
+    }
 
 
-    // @Bean
-    // @Scope(value = WebApplicationContext.SCOPE_APPLICATION, proxyMode = ScopedProxyMode.TARGET_CLASS)
-    // public Sample ApplicationService() {
-    //     return new Sample("I am Application");
-    // }
+    @Bean("RequestService")
+    @Scope(value = "request", proxyMode = ScopedProxyMode.TARGET_CLASS)
+    public Sample RequestService() {
+        return new Sample("I am Request");
+    }
+
+
+    @Bean("ApplicationService")
+    @Scope(value = "application", proxyMode = ScopedProxyMode.TARGET_CLASS)
+    public Sample ApplicationService() {
+        return new Sample("I am Application");
+    }
 
 
 
