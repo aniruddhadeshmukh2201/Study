@@ -1,3 +1,4 @@
+require("dotenv").config({ path : `.env.${process.env.NODE_ENV || 'dev'}` });
 const express  = require("express");
 const app = express();
 
@@ -37,7 +38,10 @@ process.on("uncaughtException", (err) => {
 });
 
 app.listen(3000, () => {
-    console.log("express web server");
+    setInterval(() => {
+        console.log("----printing this in every 1 sec");
+    }, 1000);
+    console.log("express web server", process.env.PORT);
 });
 
 
