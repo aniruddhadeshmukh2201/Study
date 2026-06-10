@@ -13,7 +13,8 @@
   "dependencies": {
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "node_practice": "file:"
+    "node_practice": "file:",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3"

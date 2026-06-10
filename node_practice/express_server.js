@@ -1,19 +1,27 @@
 require("dotenv").config({ path : `.env.${process.env.NODE_ENV || 'dev'}` });
 const express  = require("express");
 const app = express();
+const Logger  = require("./Logger.js");
 
-const router = express.Router();
 
-router.get('/api', (req, res) => {
-    res.send("from router/api route ");
+process.on("uncaughtException", (err) => {
+    Logger.debug("we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+    Logger.error("node global : >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", err);
 });
 
 
 
-
 app.use((req, res, next) => {
-    console.log("we are in the middleware...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+    Logger.warn("we are in the middleware...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
     next();
+});
+
+
+const router = express.Router();
+
+router.get('/api', (req, res) => {
+    Logger.info("this is the first log....");
+    res.send("from router/api route ");
 });
 
 
@@ -26,22 +34,18 @@ app.get('/', (req, res) => {
 
 
 app.use((err, req, res, next) => {
-    console.log("----we are in the error middleware--->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", err.message);
+    Logger.error("----we are in the error middleware--->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", err);
     next(err);
 });
 
 
-process.on("uncaughtException", (err) => {
-    console.log("we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-    console.log("node global : >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", err);
-    
-});
-
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     setInterval(() => {
-        console.log("----printing this in every 1 sec");
+        Logger.info("----printing this in every 1 sec");
+        throw new Error("just checking....");
     }, 1000);
-    console.log("express web server", process.env.PORT);
+    Logger.info("express web server", process.env.PORT);
+
 });
 
 

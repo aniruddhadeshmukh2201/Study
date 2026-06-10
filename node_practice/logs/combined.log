@@ -1,0 +1,133 @@
+2025-05-24 15:35:41 [info]: express web server
+2025-05-24 15:35:42 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:42 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:42 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:43 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:43 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:43 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:44 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:44 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:44 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:45 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:45 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:45 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:46 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:46 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:46 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:47 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:47 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:47 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:48 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:48 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:48 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:49 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:49 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:49 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:50 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:50 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:50 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:51 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:51 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:51 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:52 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:52 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:52 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:53 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:53 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:53 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:54 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:54 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:54 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:55 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:55 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:55 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:56 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:56 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:56 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:57 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:57 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:57 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:58 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:58 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:58 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:35:59 [info]: ----printing this in every 1 sec
+2025-05-24 15:35:59 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:35:59 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:36:00 [info]: ----printing this in every 1 sec
+2025-05-24 15:36:00 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:36:00 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:36:01 [info]: ----printing this in every 1 sec
+2025-05-24 15:36:01 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:36:01 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:36:02 [info]: ----printing this in every 1 sec
+2025-05-24 15:36:02 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:36:02 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+2025-05-24 15:36:03 [info]: ----printing this in every 1 sec
+2025-05-24 15:36:03 [debug]: we are in the global error handler...>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2025-05-24 15:36:03 [error]: Error: just checking....
+    at Timeout._onTimeout (D:\study\node_practice\express_server.js:45:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
